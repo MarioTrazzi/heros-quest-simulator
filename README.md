@@ -123,6 +123,17 @@ Os campos `_uncertain` dos JSON ainda precisam ser conferidos com o livro físic
 - [ ] As outras 11 quests do livro base (os mapas já estão em `referencias/heroscribe/hqbase_eu`)
 - [ ] Refazer a arte provisória (cartas, temas e móveis de papel) no estilo dos retratos
 
+## Contribuir
+
+Contribuições são bem-vindas: quests, arte, regras, testes e jogos derivados. Veja o
+[guia de contribuição](CONTRIBUTING.md) e abra uma
+[issue](https://github.com/MarioTrazzi/heros-quest-simulator/issues/new) contando o que você quer fazer.
+
+## Licença
+
+O código e a arte original deste projeto estão sob a [licença MIT](LICENSE). A licença não cobre
+marcas e conteúdo de terceiros (o nome HeroQuest, nomes da Games Workshop e os mapas do HeroScribe).
+
 ## Créditos
 
 - Jogo original: HeroQuest © 1989 Milton Bradley / Games Workshop; marca da Hasbro.
