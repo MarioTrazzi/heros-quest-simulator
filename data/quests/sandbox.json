@@ -1,0 +1,339 @@
+{
+  "id": "sandbox",
+  "name": "Treino (mapa de teste)",
+  "_note": "Mapa próprio para testar o motor. Coordenadas base 0, ver mapa ASCII em docs/01 §17.",
+  "start": [
+    [
+      10,
+      7
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      11,
+      8
+    ]
+  ],
+  "objects": [
+    {
+      "type": "furniture",
+      "id": "stairway",
+      "pos": [
+        10,
+        7
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        12,
+        6
+      ],
+      "b": [
+        12,
+        7
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        15,
+        9
+      ],
+      "b": [
+        16,
+        9
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        13,
+        11
+      ],
+      "b": [
+        13,
+        12
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        2,
+        0
+      ],
+      "b": [
+        2,
+        1
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        6,
+        0
+      ],
+      "b": [
+        6,
+        1
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        11,
+        3
+      ],
+      "b": [
+        12,
+        3
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        6,
+        8
+      ],
+      "b": [
+        6,
+        9
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        0,
+        6
+      ],
+      "b": [
+        1,
+        6
+      ]
+    },
+    {
+      "type": "door",
+      "a": [
+        16,
+        7
+      ],
+      "b": [
+        17,
+        7
+      ]
+    },
+    {
+      "type": "secret_door",
+      "a": [
+        4,
+        5
+      ],
+      "b": [
+        5,
+        5
+      ]
+    },
+    {
+      "type": "furniture",
+      "id": "table",
+      "pos": [
+        6,
+        4
+      ]
+    },
+    {
+      "type": "furniture",
+      "id": "bookcase",
+      "pos": [
+        9,
+        1
+      ]
+    },
+    {
+      "type": "furniture",
+      "id": "treasure_chest",
+      "pos": [
+        1,
+        1
+      ]
+    },
+    {
+      "type": "furniture",
+      "id": "fireplace",
+      "pos": [
+        17,
+        5
+      ]
+    },
+    {
+      "type": "furniture",
+      "id": "tomb",
+      "pos": [
+        2,
+        4
+      ],
+      "rot": 0
+    },
+    {
+      "type": "blocked",
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "orc",
+      "pos": [
+        7,
+        7
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "goblin",
+      "pos": [
+        10,
+        3
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "skeleton",
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "orc",
+      "pos": [
+        18,
+        6
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "goblin",
+      "pos": [
+        19,
+        7
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "goblin",
+      "pos": [
+        13,
+        1
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "chaos_warrior",
+      "pos": [
+        3,
+        7
+      ],
+      "override": {
+        "name": "Guardião"
+      }
+    },
+    {
+      "type": "trap",
+      "id": "pit",
+      "pos": [
+        13,
+        4
+      ]
+    },
+    {
+      "type": "trap",
+      "id": "spear",
+      "pos": [
+        14,
+        9
+      ]
+    },
+    {
+      "type": "trap",
+      "id": "falling_block",
+      "pos": [
+        5,
+        9
+      ]
+    },
+    {
+      "type": "trap",
+      "id": "chest",
+      "pos": [
+        1,
+        1
+      ],
+      "damage": 2,
+      "text": "Um dardo envenenado salta do baú!"
+    },
+    {
+      "type": "treasure",
+      "pos": [
+        1,
+        1
+      ],
+      "gold": 120,
+      "name": "Baú do sacristão",
+      "text": "No fundo do baú, 120 moedas de ouro."
+    },
+    {
+      "type": "treasure",
+      "pos": [
+        18,
+        6
+      ],
+      "gold": 60,
+      "name": "Bolsa do orc",
+      "text": "Uma bolsa de couro com 60 moedas."
+    },
+    {
+      "type": "door",
+      "a": [
+        18,
+        9
+      ],
+      "b": [
+        18,
+        10
+      ]
+    },
+    {
+      "type": "monster",
+      "id": "chaos_warlock",
+      "pos": [
+        19,
+        11
+      ],
+      "override": {
+        "name": "Feiticeiro",
+        "spells": [
+          "c_firestorm",
+          "c_ball_of_flame",
+          "c_summon_undead",
+          "c_command",
+          "c_sleep"
+        ]
+      },
+      "objective": true
+    }
+  ],
+  "wandering_monster": "orc",
+  "objective": {
+    "type": "kill",
+    "text": "Derrote o Feiticeiro e volte à escada."
+  }
+}

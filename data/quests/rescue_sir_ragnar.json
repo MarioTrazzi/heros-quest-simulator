@@ -1,0 +1,47 @@
+{
+  "id": "rescue_sir_ragnar",
+  "name": "O Resgate de Sir Ragnar",
+  "theme": "orc_dungeon",
+  "_note": "Quest 2 do livro base (HeroQuest UE) via HeroScribe; intro e notas traduzidas do XML (referencias/heroscribe/hqbase_eu). Simplificação: Sir Ragnar tem turno próprio logo depois de quem o achou (no livro, esse jogador rola 1 dado por ele no próprio turno). A Mente dele não está no livro (usamos 3).",
+  "heroscribe": "res://referencias/heroscribe/hqbase_eu/HQBase-02-TheRescueofSirRagnar.xml",
+  "intro": "Sir Ragnar, um dos cavaleiros mais poderosos do Imperador, foi sequestrado. Ele é mantido prisioneiro por Ulag, o Senhor da Guerra Orc. Vocês devem encontrar Sir Ragnar e trazê-lo de volta em segurança. O Príncipe Magnus pagará 200 moedas de ouro a quem resgatar Sir Ragnar, mas nada será pago se ele morrer durante a fuga.",
+  "objective": {
+    "type": "escort",
+    "text": "Encontre Sir Ragnar e leve-o de volta à escada (ele não pode morrer)."
+  },
+  "wandering_monster": "orc",
+  "letters": {
+    "X": {
+      "captive": {
+        "id": "sir_ragnar",
+        "name": "Sir Ragnar",
+        "attack": 0,
+        "defend": 2,
+        "body": 2,
+        "mind": 3,
+        "move_dice": 1,
+        "reward": 200,
+        "text": "Vocês encontraram Sir Ragnar! Um alarme soa pela masmorra: todos os monstros despertam e todas as portas se abrem. Sir Ragnar está ferido (2 de Corpo), não pode atacar e anda 1 dado por turno. Levem-no de volta à escada."
+      }
+    },
+    "A": {
+      "treasure": {
+        "name": "Baú",
+        "text": "O baú está vazio."
+      }
+    },
+    "B": {
+      "treasure": {
+        "name": "Baú",
+        "gold": 50,
+        "text": "Dentro do baú há uma Poção de Cura (recupera até 4 de Corpo) e 50 moedas de ouro.",
+        "items": [
+          {"id": "potion_healing_quest", "name": "Poção de Cura", "potion": {"heal": 4}, "quest_item": true}
+        ]
+      }
+    }
+  },
+  "objects": [
+    {"type": "trap", "id": "chest", "pos": [2, 13], "damage": 1, "text": "O baú tinha uma armadilha: 1 de dano."}
+  ]
+}

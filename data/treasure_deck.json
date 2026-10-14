@@ -1,0 +1,130 @@
+{
+  "_note": "Baralho UE 1989 (24 cartas). Valores de ouro ⚠️ a confirmar.",
+  "cards": [
+    {
+      "id": "gold_10",
+      "name": "Ouro",
+      "count": 1,
+      "gold": 10
+    },
+    {
+      "id": "gold_20",
+      "name": "Ouro",
+      "count": 1,
+      "gold": 20
+    },
+    {
+      "id": "gold_25",
+      "name": "Ouro",
+      "count": 1,
+      "gold": 25
+    },
+    {
+      "id": "gold_50",
+      "name": "Ouro",
+      "count": 1,
+      "gold": 50
+    },
+    {
+      "id": "gold_room",
+      "name": "Moedas espalhadas",
+      "count": 1,
+      "gold_roll": "1d6*10"
+    },
+    {
+      "id": "gem",
+      "name": "Gema",
+      "count": 1,
+      "gold": 35
+    },
+    {
+      "id": "jewels",
+      "name": "Joias",
+      "count": 1,
+      "gold": 50
+    },
+    {
+      "id": "treasure_horde",
+      "name": "Tesouro",
+      "count": 1,
+      "gold": 100
+    },
+    {
+      "id": "potion_healing",
+      "name": "Poção de Cura",
+      "count": 2,
+      "potion": {
+        "heal": "1d6"
+      }
+    },
+    {
+      "id": "potion_strength",
+      "name": "Poção de Força",
+      "count": 1,
+      "potion": {
+        "next_attack_bonus_dice": 2
+      }
+    },
+    {
+      "id": "potion_resilience",
+      "name": "Poção de Resiliência",
+      "count": 1,
+      "potion": {
+        "next_defend_bonus_dice": 2
+      }
+    },
+    {
+      "id": "potion_speed",
+      "name": "Poção de Velocidade",
+      "count": 1,
+      "potion": {
+        "next_move_dice_mult": 2
+      }
+    },
+    {
+      "id": "heroic_brew",
+      "name": "Heroic Brew",
+      "count": 1,
+      "potion": {
+        "extra_attacks": 1
+      }
+    },
+    {
+      "id": "holy_water",
+      "name": "Água Benta",
+      "count": 1,
+      "item": {
+        "kill_adjacent_tag": "undead",
+        "uses_action": true
+      }
+    },
+    {
+      "id": "trap_arrow",
+      "name": "Flecha escondida",
+      "count": 2,
+      "trap": {
+        "damage": 1
+      }
+    },
+    {
+      "id": "trap_pit",
+      "name": "Fosso",
+      "count": 1,
+      "trap": {
+        "damage": 1,
+        "place_pit": true
+      }
+    },
+    {
+      "id": "wandering_monster",
+      "name": "Monstro Errante",
+      "count": 5,
+      "wandering_monster": true
+    },
+    {
+      "id": "nothing",
+      "name": "Nada",
+      "count": 1
+    }
+  ]
+}

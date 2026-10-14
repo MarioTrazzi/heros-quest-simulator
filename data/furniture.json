@@ -1,0 +1,117 @@
+{
+  "_note": "Tamanhos (largura x altura em quadrados) do HeroScribe.",
+  "furniture": [
+    {
+      "id": "stairway",
+      "size": [
+        2,
+        2
+      ],
+      "blocks_move": false
+    },
+    {
+      "id": "table",
+      "size": [
+        3,
+        2
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "sorcerers_table",
+      "size": [
+        3,
+        2
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "alchemists_bench",
+      "size": [
+        3,
+        2
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "tomb",
+      "size": [
+        2,
+        3
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "rack",
+      "size": [
+        2,
+        3
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "bookcase",
+      "size": [
+        3,
+        1
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "cupboard",
+      "size": [
+        3,
+        1
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "fireplace",
+      "size": [
+        3,
+        1
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "weapons_rack",
+      "size": [
+        3,
+        1
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "throne",
+      "size": [
+        1,
+        1
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "treasure_chest",
+      "size": [
+        1,
+        1
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "blocked_single",
+      "size": [
+        1,
+        1
+      ],
+      "blocks_move": true
+    },
+    {
+      "id": "blocked_double",
+      "size": [
+        2,
+        1
+      ],
+      "blocks_move": true
+    }
+  ]
+}

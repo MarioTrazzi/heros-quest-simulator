@@ -1,0 +1,48 @@
+{
+  "id": "the_trial",
+  "name": "O Desafio",
+  "theme": "ruins",
+  "_note": "Quest 1 do livro base (HeroQuest UE) via HeroScribe; intro e notas das letras traduzidas do próprio XML (referencias/heroscribe/hqbase_eu). O XML não diz o monstro errante: 'orc' é o que lembramos do livro, confira.",
+  "heroscribe": "res://referencias/heroscribe/hqbase_eu/HQBase-01-TheTrial.xml",
+  "intro": "Vocês aprenderam bem, meus amigos. Chegou a hora do seu primeiro desafio. Viajem para o leste e entrem nas catacumbas de Verag, uma gárgula imunda. As catacumbas guardam o túmulo de Fellmarg. O desafio não é fácil e alguns de vocês não voltarão. Os que sobreviverem continuarão o treinamento. Este é o primeiro passo no caminho para se tornar um herói... pisem com cuidado, meus amigos.",
+  "objective": {
+    "type": "kill",
+    "text": "Mate Verag, a gárgula, e volte à escada."
+  },
+  "wandering_monster": "orc",
+  "letters": {
+    "A": {
+      "treasure": {
+        "name": "Baú",
+        "gold": 100,
+        "text": "Dentro do baú há 100 moedas de ouro."
+      }
+    },
+    "B": {
+      "monster": {
+        "name": "Guardião de Fellmarg",
+        "attack": 4
+      }
+    },
+    "C": {
+      "treasure": {
+        "name": "Baú",
+        "gold": 150,
+        "text": "Dentro do baú há 150 moedas de ouro."
+      }
+    },
+    "D": {
+      "treasure": {
+        "name": "Baú",
+        "text": "O baú está vazio."
+      }
+    },
+    "Verag": {
+      "at": [12, 8],
+      "monster": {
+        "name": "Verag"
+      },
+      "objective": true
+    }
+  }
+}

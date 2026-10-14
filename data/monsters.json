@@ -1,0 +1,148 @@
+{
+  "_note": "Stats UE 1989. '_uncertain' lista campos a conferir.",
+  "monsters": [
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "name_2021": "Goblin",
+      "move": 10,
+      "attack": 2,
+      "defend": 1,
+      "body": 1,
+      "mind": 1,
+      "tags": [
+        "greenskin"
+      ]
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "name_2021": "Orc",
+      "move": 8,
+      "attack": 3,
+      "defend": 2,
+      "body": 1,
+      "mind": 2,
+      "tags": [
+        "greenskin",
+        "orc"
+      ]
+    },
+    {
+      "id": "fimir",
+      "name": "Fimir",
+      "name_2021": "Abomination",
+      "move": 6,
+      "attack": 3,
+      "defend": 3,
+      "body": 2,
+      "mind": 3,
+      "tags": []
+    },
+    {
+      "id": "chaos_warrior",
+      "name": "Chaos Warrior",
+      "name_2021": "Dread Warrior",
+      "move": 7,
+      "attack": 4,
+      "defend": 4,
+      "body": 3,
+      "mind": 3,
+      "tags": [],
+      "_uncertain": [
+        "attack (3 em algumas tabelas UE)"
+      ]
+    },
+    {
+      "id": "gargoyle",
+      "name": "Gargoyle",
+      "name_2021": "Gargoyle",
+      "move": 6,
+      "attack": 4,
+      "defend": 5,
+      "body": 3,
+      "mind": 4,
+      "tags": []
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "name_2021": "Skeleton",
+      "move": 6,
+      "attack": 2,
+      "defend": 2,
+      "body": 1,
+      "mind": 0,
+      "tags": [
+        "undead"
+      ]
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "name_2021": "Zombie",
+      "move": 5,
+      "attack": 2,
+      "defend": 3,
+      "body": 1,
+      "mind": 0,
+      "tags": [
+        "undead"
+      ]
+    },
+    {
+      "id": "mummy",
+      "name": "Mummy",
+      "name_2021": "Mummy",
+      "move": 4,
+      "attack": 3,
+      "defend": 4,
+      "body": 2,
+      "mind": 0,
+      "tags": [
+        "undead"
+      ]
+    },
+    {
+      "id": "chaos_warlock",
+      "name": "Chaos Warlock",
+      "name_2021": "Dread Sorcerer",
+      "move": 8,
+      "attack": 2,
+      "defend": 3,
+      "body": 3,
+      "mind": 4,
+      "tags": [
+        "caster"
+      ],
+      "_uncertain": [
+        "move",
+        "attack",
+        "defend",
+        "body",
+        "mind"
+      ],
+      "spells": [
+        "c_ball_of_flame",
+        "c_sleep",
+        "c_tempest"
+      ]
+    },
+    {
+      "id": "witch_lord",
+      "name": "Rei Bruxo",
+      "name_2021": "Witch Lord",
+      "move": 1,
+      "attack": 2,
+      "defend": 6,
+      "body": 1,
+      "mind": 4,
+      "tags": [
+        "undead",
+        "spirit_blade_only",
+        "spell_immune"
+      ],
+      "_note": "Chefe de Barak Tor (quest 12): só a Lâmina Espiritual o fere e magia não pega. Usa a miniatura do Bruxo do Caos."
+    }
+  ]
+}

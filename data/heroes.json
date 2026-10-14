@@ -1,0 +1,65 @@
+{
+  "_note": "Edição UE 1989. attack/defend = dados de combate base; move = nº de d6. text = apresentação da carta de personagem (só a do Bárbaro foi conferida; as outras são de memória, ⚠️ conferir no livro).",
+  "heroes": [
+    {
+      "id": "barbarian",
+      "name": "Bárbaro",
+      "attack": 3,
+      "defend": 2,
+      "body": 8,
+      "mind": 2,
+      "move_dice": 2,
+      "start_equipment": [
+        "broadsword"
+      ],
+      "spell_schools": 0,
+      "can_disarm_traps": false,
+      "text": "Você é o Bárbaro, o maior de todos os guerreiros. Mas cuidado com a magia: sua espada não o defende dela."
+    },
+    {
+      "id": "dwarf",
+      "name": "Anão",
+      "attack": 2,
+      "defend": 2,
+      "body": 7,
+      "mind": 3,
+      "move_dice": 2,
+      "start_equipment": [
+        "shortsword"
+      ],
+      "spell_schools": 0,
+      "can_disarm_traps": true,
+      "text": "Você é o Anão, um bom guerreiro que sempre consegue desarmar as armadilhas que encontra."
+    },
+    {
+      "id": "elf",
+      "name": "Elfo",
+      "attack": 2,
+      "defend": 2,
+      "body": 6,
+      "mind": 4,
+      "move_dice": 2,
+      "start_equipment": [
+        "shortsword"
+      ],
+      "spell_schools": 1,
+      "can_disarm_traps": false,
+      "text": "Você é o Elfo, mestre da magia e da espada. Use seus poderes com sabedoria."
+    },
+    {
+      "id": "wizard",
+      "name": "Mago",
+      "attack": 1,
+      "defend": 2,
+      "body": 4,
+      "mind": 6,
+      "move_dice": 2,
+      "start_equipment": [
+        "dagger"
+      ],
+      "spell_schools": 3,
+      "can_disarm_traps": false,
+      "text": "Você é o Mago. Seus muitos feitiços podem ajudá-lo, mas no combate você é fraco. Use bem os feitiços e evite a luta."
+    }
+  ]
+}

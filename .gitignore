@@ -1,0 +1,8 @@
+# Godot 4
+.godot/
+/android/
+*.translation
+export_presets.cfg
+.DS_Store
+build/
+.claude/settings.local.json

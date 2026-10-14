@@ -1,0 +1,33 @@
+{
+  "id": "barak_tor",
+  "name": "Barak Tor – O Túmulo do Rei Bruxo",
+  "theme": "barrow",
+  "_note": "Quest 12 do livro base (HeroQuest UE) via HeroScribe; intro e notas traduzidas do XML (referencias/heroscribe/hqbase_eu). Simplificação: o desmoronamento da letra C é a armadilha comum de bloco que cai (o livro diz que ele desaba depois que o último herói passa, fechando a volta).",
+  "heroscribe": "res://referencias/heroscribe/hqbase_eu/HQBase-12-BarakTor-BarrowoftheWitchLord.xml",
+  "intro": "A guerra com os Orcs do leste se aproxima, e o Imperador precisa unir os reinos menores para o conflito que virá. Para isso, ele precisa encontrar a antiga Estrela do Oeste, usada pelos Reis da Lenda e por Rogar quando enfrentou Morcar em eras passadas. Quem encontrar a joia receberá 200 moedas de ouro. Ela está em Barak Tor, o lugar de descanso do Rei Bruxo, também chamado de Rei dos Mortos, um servo poderoso de Morcar destruído há muito tempo pela Lâmina Espiritual. Só a Lâmina Espiritual pode feri-lo.",
+  "objective": {
+    "type": "find",
+    "text": "Encontre a Estrela do Oeste e volte à escada."
+  },
+  "wandering_monster": "skeleton",
+  "letters": {
+    "A": {
+      "fake_door": true
+    },
+    "B": {
+      "carries": {
+        "name": "Estrela do Oeste",
+        "text": "Na mão do zumbi brilha a Estrela do Oeste! O Imperador paga 200 moedas de ouro por ela.",
+        "gold": 200,
+        "objective_item": true
+      }
+    },
+    "D": {
+      "awaken": {
+        "id": "witch_lord",
+        "at_letter": "X",
+        "text": "Vocês romperam o selo mágico que mantinha o Rei Bruxo aprisionado. Agora ele despertou e vocês precisam fugir. Só a Lâmina Espiritual pode feri-lo."
+      }
+    }
+  }
+}

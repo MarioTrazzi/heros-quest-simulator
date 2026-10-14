@@ -1,0 +1,263 @@
+{
+  "_note": "Cada feitiço 1x por quest. target: self|hero|monster|any_visible|room. Todos implementados; Comando e a tabela de invocação são simplificações (ver scripts/logic/magic.gd).",
+  "hero_spells": [
+    {
+      "id": "genie",
+      "name": "Genie",
+      "school": "air",
+      "target": "any_visible",
+      "effect": {
+        "choice": [
+          {
+            "open_door": true
+          },
+          {
+            "attack_dice": 5
+          }
+        ]
+      },
+      "name_pt": "Gênio",
+      "text": "Um Gênio abre qualquer porta à vista ou ataca uma figura à vista com 5 dados de combate."
+    },
+    {
+      "id": "swift_wind",
+      "name": "Swift Wind",
+      "school": "air",
+      "target": "hero",
+      "effect": {
+        "next_move_dice_mult": 2
+      },
+      "name_pt": "Vento Veloz",
+      "text": "Um herói à vista rola o dobro dos dados no próximo movimento."
+    },
+    {
+      "id": "tempest",
+      "name": "Tempest",
+      "school": "air",
+      "target": "monster",
+      "effect": {
+        "skip_turns": 1
+      },
+      "name_pt": "Tempestade",
+      "text": "Um monstro à vista perde o próximo turno."
+    },
+    {
+      "id": "fire_of_wrath",
+      "name": "Fire of Wrath",
+      "school": "fire",
+      "target": "monster",
+      "effect": {
+        "damage": 1,
+        "resist_roll": {
+          "dice": 1,
+          "each_5_6_reduces": 1
+        }
+      },
+      "name_pt": "Fogo da Ira",
+      "text": "1 de dano num monstro à vista. Ele rola 1 dado: com 5 ou 6, escapa."
+    },
+    {
+      "id": "courage",
+      "name": "Courage",
+      "school": "fire",
+      "target": "hero",
+      "effect": {
+        "next_attack_bonus_dice": 2
+      },
+      "name_pt": "Coragem",
+      "text": "Um herói à vista rola 2 dados a mais no próximo ataque."
+    },
+    {
+      "id": "ball_of_flame",
+      "name": "Ball of Flame",
+      "school": "fire",
+      "target": "monster",
+      "effect": {
+        "damage": 2,
+        "resist_roll": {
+          "dice": 2,
+          "each_5_6_reduces": 1
+        }
+      },
+      "name_pt": "Bola de Fogo",
+      "text": "2 de dano num monstro à vista. Ele rola 2 dados: cada 5 ou 6 tira 1 de dano."
+    },
+    {
+      "id": "water_of_healing",
+      "name": "Water of Healing",
+      "school": "water",
+      "target": "hero",
+      "effect": {
+        "heal": 4
+      },
+      "name_pt": "Água Curativa",
+      "text": "Um herói à vista recupera até 4 de Corpo."
+    },
+    {
+      "id": "sleep",
+      "name": "Sleep",
+      "school": "water",
+      "target": "monster",
+      "effect": {
+        "status": "asleep",
+        "break": "1d6 por Mente a cada turno; 6 quebra"
+      },
+      "name_pt": "Sono",
+      "text": "Um monstro à vista adormece: não age nem defende. A cada turno rola 1 dado por ponto de Mente; 6 acorda. Não pega em mortos-vivos."
+    },
+    {
+      "id": "veil_of_mist",
+      "name": "Veil of Mist",
+      "school": "water",
+      "target": "hero",
+      "effect": {
+        "next_move_pass_monsters": true
+      },
+      "name_pt": "Véu de Névoa",
+      "text": "No próximo movimento, um herói à vista passa pelos quadrados dos monstros."
+    },
+    {
+      "id": "heal_body",
+      "name": "Heal Body",
+      "school": "earth",
+      "target": "hero",
+      "effect": {
+        "heal": 4
+      },
+      "name_pt": "Curar Corpo",
+      "text": "Um herói à vista recupera até 4 de Corpo."
+    },
+    {
+      "id": "pass_through_rock",
+      "name": "Pass Through Rock",
+      "school": "earth",
+      "target": "hero",
+      "effect": {
+        "next_move_through_walls": true
+      },
+      "name_pt": "Atravessar Rocha",
+      "text": "No próximo movimento, um herói à vista atravessa paredes."
+    },
+    {
+      "id": "rock_skin",
+      "name": "Rock Skin",
+      "school": "earth",
+      "target": "hero",
+      "effect": {
+        "defend_bonus_dice": 1,
+        "until": "damaged"
+      },
+      "name_pt": "Pele de Pedra",
+      "text": "Um herói à vista rola 1 dado a mais na defesa até sofrer dano."
+    }
+  ],
+  "chaos_spells": [
+    {
+      "id": "c_ball_of_flame",
+      "name": "Ball of Flame",
+      "school": "chaos",
+      "target": "hero",
+      "effect": {
+        "damage": 2,
+        "resist_roll": {
+          "dice": 2,
+          "each_5_6_reduces": 1
+        }
+      },
+      "name_pt": "Bola de Fogo",
+      "text": "2 de dano num herói à vista. Ele rola 2 dados: cada 5 ou 6 tira 1 de dano."
+    },
+    {
+      "id": "c_sleep",
+      "name": "Sleep",
+      "school": "chaos",
+      "target": "hero",
+      "effect": {
+        "status": "asleep",
+        "break": "1d6 por Mente; 6 quebra"
+      },
+      "name_pt": "Sono",
+      "text": "Um herói à vista adormece: não age nem defende. A cada turno rola 1 dado por ponto de Mente; 6 acorda."
+    },
+    {
+      "id": "c_tempest",
+      "name": "Tempest",
+      "school": "chaos",
+      "target": "hero",
+      "effect": {
+        "skip_turns": 1
+      },
+      "name_pt": "Tempestade",
+      "text": "Um herói à vista perde o próximo turno."
+    },
+    {
+      "id": "c_command",
+      "name": "Command",
+      "school": "chaos",
+      "target": "hero",
+      "effect": {
+        "status": "controlled",
+        "break": "1d6 por Mente; 6 quebra"
+      },
+      "name_pt": "Comando",
+      "text": "Zargon domina um herói à vista: ele perde os turnos até tirar 6 (1 dado por ponto de Mente), mas ainda defende."
+    },
+    {
+      "id": "c_cloud_of_chaos",
+      "name": "Cloud of Chaos",
+      "school": "chaos",
+      "target": "room",
+      "effect": {
+        "status": "paralyzed"
+      },
+      "_uncertain": true,
+      "name_pt": "Nuvem do Caos",
+      "text": "Os heróis da sala ficam paralisados, como no Sono."
+    },
+    {
+      "id": "c_firestorm",
+      "name": "Firestorm",
+      "school": "chaos",
+      "target": "room",
+      "effect": {
+        "damage": 3,
+        "excludes_caster": true
+      },
+      "_uncertain": true,
+      "name_pt": "Tempestade de Fogo",
+      "text": "3 de dano em todas as figuras da sala, menos no conjurador."
+    },
+    {
+      "id": "c_summon_orcs",
+      "name": "Summon Orcs",
+      "school": "chaos",
+      "target": "self",
+      "effect": {
+        "summon": "orc",
+        "count": "1d6"
+      },
+      "_uncertain": true,
+      "name_pt": "Invocar Orcs",
+      "text": "Orcs surgem ao lado do conjurador."
+    },
+    {
+      "id": "c_summon_undead",
+      "name": "Summon Undead",
+      "school": "chaos",
+      "target": "self",
+      "effect": {
+        "summon": "undead",
+        "count": "1d6"
+      },
+      "_uncertain": true,
+      "name_pt": "Invocar Mortos-vivos",
+      "text": "Mortos-vivos surgem ao lado do conjurador."
+    }
+  ],
+  "schools": {
+    "air": "Ar",
+    "fire": "Fogo",
+    "water": "Água",
+    "earth": "Terra"
+  }
+}

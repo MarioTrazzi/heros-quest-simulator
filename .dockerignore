@@ -1,0 +1,7 @@
+.godot
+assets
+tools
+tests
+docs
+*.uid
+build

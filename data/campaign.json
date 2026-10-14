@@ -1,0 +1,9 @@
+{
+  "_note": "Ordem da campanha (ids de data/quests). Quests novas entram no fim de saves antigos.",
+  "quests": [
+    "sandbox",
+    "the_trial",
+    "rescue_sir_ragnar",
+    "barak_tor"
+  ]
+}

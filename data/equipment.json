@@ -1,0 +1,139 @@
+{
+  "_note": "Armeria UE 1989; preços ⚠️ variam por edição. attack substitui o base; defend_bonus soma.",
+  "items": [
+    {
+      "id": "dagger",
+      "name": "Adaga",
+      "price": 25,
+      "slot": "weapon",
+      "attack": 1,
+      "throwable": true,
+      "wizard_ok": true
+    },
+    {
+      "id": "staff",
+      "name": "Bastão",
+      "price": 100,
+      "slot": "weapon",
+      "attack": 1,
+      "diagonal": true,
+      "two_handed": true,
+      "wizard_ok": true
+    },
+    {
+      "id": "shortsword",
+      "name": "Espada Curta",
+      "price": 150,
+      "slot": "weapon",
+      "attack": 2,
+      "wizard_ok": false
+    },
+    {
+      "id": "hand_axe",
+      "name": "Machadinha",
+      "price": 150,
+      "slot": "weapon",
+      "attack": 2,
+      "throwable": true,
+      "wizard_ok": false
+    },
+    {
+      "id": "spear",
+      "name": "Lança",
+      "price": 150,
+      "slot": "weapon",
+      "attack": 2,
+      "diagonal": true,
+      "throwable": true,
+      "wizard_ok": false
+    },
+    {
+      "id": "broadsword",
+      "name": "Espada Larga",
+      "price": 250,
+      "slot": "weapon",
+      "attack": 3,
+      "wizard_ok": false
+    },
+    {
+      "id": "crossbow",
+      "name": "Besta",
+      "price": 350,
+      "slot": "weapon",
+      "attack": 3,
+      "ranged": true,
+      "no_adjacent": true,
+      "wizard_ok": false
+    },
+    {
+      "id": "battle_axe",
+      "name": "Machado de Batalha",
+      "price": 400,
+      "slot": "weapon",
+      "attack": 4,
+      "two_handed": true,
+      "wizard_ok": false
+    },
+    {
+      "id": "shield",
+      "name": "Escudo",
+      "price": 100,
+      "slot": "shield",
+      "defend_bonus": 1,
+      "wizard_ok": false
+    },
+    {
+      "id": "helmet",
+      "name": "Elmo",
+      "price": 120,
+      "slot": "head",
+      "defend_bonus": 1,
+      "wizard_ok": false
+    },
+    {
+      "id": "bracers",
+      "name": "Braceletes",
+      "price": 220,
+      "slot": "arms",
+      "defend_bonus": 1,
+      "wizard_ok": true,
+      "_uncertain": [
+        "price",
+        "wizard_ok"
+      ]
+    },
+    {
+      "id": "cloak_of_protection",
+      "name": "Manto de Proteção",
+      "price": 350,
+      "slot": "cloak",
+      "defend_bonus": 1,
+      "wizard_only": true
+    },
+    {
+      "id": "chain_mail",
+      "name": "Cota de Malha",
+      "price": 450,
+      "slot": "body",
+      "defend_bonus": 1,
+      "wizard_ok": false
+    },
+    {
+      "id": "plate_armour",
+      "name": "Armadura de Placas",
+      "price": 850,
+      "slot": "body",
+      "defend_bonus": 2,
+      "move_dice_override": 1,
+      "wizard_ok": false
+    },
+    {
+      "id": "tool_kit",
+      "name": "Kit de Ferramentas",
+      "price": 250,
+      "slot": "tool",
+      "disarm_traps": true,
+      "wizard_ok": true
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="The Fire Mage" region="Europe" version="1.0" width="1" height="1">
+<board>
+<dark left="6" top="2" width="1" height="1" />
+<dark left="6" top="3" width="1" height="1" />
+<dark left="6" top="4" width="1" height="1" />
+<dark left="6" top="5" width="1" height="1" />
+<dark left="6" top="6" width="1" height="1" />
+<dark left="6" top="7" width="1" height="1" />
+<dark left="6" top="8" width="1" height="1" />
+<dark left="6" top="9" width="1" height="1" />
+<dark left="6" top="11" width="1" height="1" />
+<dark left="6" top="12" width="1" height="1" />
+<dark left="6" top="13" width="1" height="1" />
+<dark left="7" top="2" width="1" height="1" />
+<dark left="7" top="3" width="1" height="1" />
+<dark left="7" top="4" width="1" height="1" />
+<dark left="7" top="5" width="1" height="1" />
+<dark left="7" top="6" width="1" height="1" />
+<dark left="7" top="7" width="1" height="1" />
+<dark left="7" top="8" width="1" height="1" />
+<dark left="7" top="9" width="1" height="1" />
+<dark left="7" top="11" width="1" height="1" />
+<dark left="7" top="12" width="1" height="1" />
+<dark left="7" top="13" width="1" height="1" />
+<dark left="8" top="2" width="1" height="1" />
+<dark left="8" top="3" width="1" height="1" />
+<dark left="8" top="4" width="1" height="1" />
+<dark left="8" top="5" width="1" height="1" />
+<dark left="8" top="6" width="1" height="1" />
+<dark left="8" top="7" width="1" height="1" />
+<dark left="8" top="8" width="1" height="1" />
+<dark left="8" top="9" width="1" height="1" />
+<dark left="9" top="2" width="1" height="1" />
+<dark left="9" top="3" width="1" height="1" />
+<dark left="9" top="4" width="1" height="1" />
+<dark left="9" top="5" width="1" height="1" />
+<dark left="9" top="6" width="1" height="1" />
+<dark left="9" top="7" width="1" height="1" />
+<dark left="9" top="8" width="1" height="1" />
+<dark left="9" top="9" width="1" height="1" />
+<dark left="10" top="2" width="1" height="1" />
+<dark left="10" top="3" width="1" height="1" />
+<dark left="10" top="4" width="1" height="1" />
+<dark left="10" top="5" width="1" height="1" />
+<dark left="10" top="6" width="1" height="1" />
+<dark left="10" top="14" width="1" height="1" />
+<dark left="10" top="15" width="1" height="1" />
+<dark left="10" top="16" width="1" height="1" />
+<dark left="10" top="17" width="1" height="1" />
+<dark left="10" top="18" width="1" height="1" />
+<dark left="11" top="2" width="1" height="1" />
+<dark left="11" top="3" width="1" height="1" />
+<dark left="11" top="4" width="1" height="1" />
+<dark left="11" top="5" width="1" height="1" />
+<dark left="11" top="6" width="1" height="1" />
+<dark left="11" top="14" width="1" height="1" />
+<dark left="11" top="15" width="1" height="1" />
+<dark left="11" top="16" width="1" height="1" />
+<dark left="11" top="17" width="1" height="1" />
+<dark left="11" top="18" width="1" height="1" />
+<dark left="12" top="2" width="1" height="1" />
+<dark left="12" top="3" width="1" height="1" />
+<dark left="12" top="4" width="1" height="1" />
+<dark left="12" top="5" width="1" height="1" />
+<dark left="12" top="6" width="1" height="1" />
+<dark left="12" top="14" width="1" height="1" />
+<dark left="12" top="15" width="1" height="1" />
+<dark left="12" top="16" width="1" height="1" />
+<dark left="12" top="17" width="1" height="1" />
+<dark left="12" top="18" width="1" height="1" />
+<dark left="13" top="3" width="1" height="1" />
+<dark left="13" top="4" width="1" height="1" />
+<dark left="13" top="5" width="1" height="1" />
+<dark left="13" top="6" width="1" height="1" />
+<dark left="13" top="7" width="1" height="1" />
+<dark left="14" top="3" width="1" height="1" />
+<dark left="14" top="4" width="1" height="1" />
+<dark left="14" top="5" width="1" height="1" />
+<dark left="14" top="6" width="1" height="1" />
+<dark left="14" top="7" width="1" height="1" />
+<dark left="15" top="2" width="1" height="1" />
+<dark left="15" top="3" width="1" height="1" />
+<dark left="15" top="4" width="1" height="1" />
+<dark left="15" top="5" width="1" height="1" />
+<dark left="15" top="6" width="1" height="1" />
+<dark left="15" top="7" width="1" height="1" />
+<dark left="16" top="2" width="1" height="1" />
+<dark left="16" top="3" width="1" height="1" />
+<dark left="16" top="4" width="1" height="1" />
+<dark left="16" top="5" width="1" height="1" />
+<dark left="16" top="6" width="1" height="1" />
+<dark left="17" top="2" width="1" height="1" />
+<dark left="17" top="3" width="1" height="1" />
+<dark left="17" top="4" width="1" height="1" />
+<dark left="17" top="5" width="1" height="1" />
+<dark left="17" top="6" width="1" height="1" />
+<dark left="18" top="2" width="1" height="1" />
+<dark left="18" top="3" width="1" height="1" />
+<dark left="18" top="4" width="1" height="1" />
+<dark left="18" top="5" width="1" height="1" />
+<dark left="18" top="6" width="1" height="1" />
+<dark left="18" top="7" width="1" height="1" />
+<dark left="18" top="8" width="1" height="1" />
+<dark left="18" top="9" width="1" height="1" />
+<dark left="19" top="2" width="1" height="1" />
+<dark left="19" top="3" width="1" height="1" />
+<dark left="19" top="4" width="1" height="1" />
+<dark left="19" top="5" width="1" height="1" />
+<dark left="19" top="6" width="1" height="1" />
+<dark left="19" top="7" width="1" height="1" />
+<dark left="19" top="8" width="1" height="1" />
+<dark left="19" top="9" width="1" height="1" />
+<dark left="20" top="2" width="1" height="1" />
+<dark left="20" top="3" width="1" height="1" />
+<dark left="20" top="4" width="1" height="1" />
+<dark left="20" top="5" width="1" height="1" />
+<dark left="20" top="6" width="1" height="1" />
+<dark left="20" top="7" width="1" height="1" />
+<dark left="20" top="8" width="1" height="1" />
+<dark left="20" top="9" width="1" height="1" />
+<dark left="21" top="2" width="1" height="1" />
+<dark left="21" top="3" width="1" height="1" />
+<dark left="21" top="4" width="1" height="1" />
+<dark left="21" top="5" width="1" height="1" />
+<dark left="21" top="6" width="1" height="1" />
+<dark left="21" top="7" width="1" height="1" />
+<dark left="21" top="8" width="1" height="1" />
+<dark left="21" top="9" width="1" height="1" />
+<dark left="22" top="2" width="1" height="1" />
+<dark left="22" top="3" width="1" height="1" />
+<dark left="22" top="4" width="1" height="1" />
+<dark left="22" top="5" width="1" height="1" />
+<dark left="22" top="15" width="1" height="1" />
+<dark left="22" top="16" width="1" height="1" />
+<dark left="22" top="17" width="1" height="1" />
+<dark left="22" top="18" width="1" height="1" />
+<dark left="23" top="2" width="1" height="1" />
+<dark left="23" top="3" width="1" height="1" />
+<dark left="23" top="4" width="1" height="1" />
+<dark left="23" top="5" width="1" height="1" />
+<dark left="23" top="15" width="1" height="1" />
+<dark left="23" top="16" width="1" height="1" />
+<dark left="23" top="17" width="1" height="1" />
+<dark left="23" top="18" width="1" height="1" />
+<dark left="24" top="2" width="1" height="1" />
+<dark left="24" top="3" width="1" height="1" />
+<dark left="24" top="4" width="1" height="1" />
+<dark left="24" top="5" width="1" height="1" />
+<dark left="24" top="15" width="1" height="1" />
+<dark left="24" top="16" width="1" height="1" />
+<dark left="24" top="17" width="1" height="1" />
+<dark left="24" top="18" width="1" height="1" />
+<dark left="25" top="2" width="1" height="1" />
+<dark left="25" top="3" width="1" height="1" />
+<dark left="25" top="4" width="1" height="1" />
+<dark left="25" top="5" width="1" height="1" />
+<dark left="25" top="15" width="1" height="1" />
+<dark left="25" top="16" width="1" height="1" />
+<dark left="25" top="17" width="1" height="1" />
+<dark left="25" top="18" width="1" height="1" />
+<object id="Zombie" left="1.0" top="1.0" rotation="downward" zorder="0.0" />
+<object id="PitTrap" left="2.0" top="1.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="3.0" top="1.0" rotation="downward" zorder="0.0" />
+<object id="SingleBlockedSquare" left="1.0" top="2.0" rotation="downward" zorder="0.0" />
+<object id="DoubleBlockedSquare" left="13.0" top="2.0" rotation="downward" zorder="0.0" />
+<object id="Skeleton" left="2.0" top="3.0" rotation="downward" zorder="0.0" />
+<object id="Skeleton" left="3.0" top="3.0" rotation="downward" zorder="0.0" />
+<object id="Skeleton" left="4.0" top="3.0" rotation="downward" zorder="0.0" />
+<object id="Skeleton" left="5.0" top="3.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="4.0" top="4.0" rotation="downward" zorder="0.0" />
+<object id="SpearTrap" left="1.0" top="6.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="1.0" top="7.0" rotation="rightward" zorder="0.0" />
+<object id="Zombie" left="4.0" top="7.0" rotation="downward" zorder="0.0" />
+<object id="PitTrap" left="10.0" top="7.0" rotation="downward" zorder="0.0" />
+<object id="SingleBlockedSquare" left="12.0" top="7.0" rotation="downward" zorder="0.0" />
+<object id="DoubleBlockedSquare" left="16.0" top="7.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="25.0" top="7.0" rotation="rightward" zorder="0.0" />
+<object id="Stairway" left="22.0" top="8.0" rotation="upward" zorder="0.0" />
+<object id="Door" left="3.0" top="9.0" rotation="downward" zorder="0.0" />
+<object id="SorcerersTable" left="11.0" top="9.0" rotation="rightward" zorder="0.0" />
+<object id="Mummy" left="13.0" top="9.0" rotation="downward" zorder="0.0" />
+<object id="SingleBlockedSquare" left="26.0" top="9.0" rotation="downward" zorder="0.0" />
+<object id="SingleBlockedSquare" left="2.0" top="10.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="5.0" top="10.0" rotation="downward" zorder="0.0" />
+<object id="SingleBlockedSquare" left="9.0" top="10.0" rotation="downward" zorder="0.0" />
+<object id="LetterX" left="13.0" top="10.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="16.0" top="10.0" rotation="rightward" zorder="0.0" />
+<object id="Door" left="20.0" top="10.0" rotation="downward" zorder="0.0" />
+<object id="SecretDoor" left="8.0" top="11.0" rotation="downward" zorder="0.0" />
+<object id="Mummy" left="13.0" top="11.0" rotation="downward" zorder="0.0" />
+<object id="TreasureChest" left="22.0" top="12.0" rotation="rightward" zorder="0.0" />
+<object id="Orc" left="23.0" top="12.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="25.0" top="12.0" rotation="rightward" zorder="0.0" />
+<object id="SpearTrap" left="1.0" top="13.0" rotation="downward" zorder="0.0" />
+<object id="SecretDoor" left="10.0" top="13.0" rotation="rightward" zorder="0.0" />
+<object id="Skeleton" left="17.0" top="13.0" rotation="downward" zorder="0.0" />
+<object id="LetterA" left="22.0" top="13.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="4.0" top="14.0" rotation="downward" zorder="0.0" />
+<object id="Orc" left="16.0" top="14.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="20.0" top="14.0" rotation="downward" zorder="0.0" />
+<object id="Table" left="15.0" top="15.0" rotation="upward" zorder="0.0" />
+<object id="Orc" left="20.0" top="16.0" rotation="downward" zorder="0.0" />
+<object id="Orc" left="17.0" top="17.0" rotation="downward" zorder="0.0" />
+<object id="Orc" left="21.0" top="17.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="3.0" top="18.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="6.0" top="18.0" rotation="downward" zorder="0.0" />
+<object id="PitTrap" left="7.0" top="18.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="16.0" top="18.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="20.0" top="18.0" rotation="downward" zorder="0.0" />
+<object id="SingleBlockedSquare" left="7.0" top="19.0" rotation="downward" zorder="0.0" />
+<object id="PitTrap" left="8.0" top="19.0" rotation="downward" zorder="0.0" />
+<object id="SingleBlockedSquare" left="10.0" top="19.0" rotation="downward" zorder="0.0" />
+<object id="Door" left="8.0" top="18.0" rotation="downward" zorder="1.0" />
+</board>
+<speech>
+The Orcs of the Black Mountains have been using Fire magic in their raids. Balur, the Fire Mage. is thought to be responsible for helping them. No Fire magic can harm him. and the Emperor's Wizards are unable to counter his spells. You have therefore been chosen to enter his lair, deep beneath Black Fire Crag. The Emperor will reward you with 150 gold coins each for Balur's destruction.
+</speech>
+<note>Use the Chaos Sorcerer model for Balur.</note>
+<note>A  Treasure chest contains 150 gold coins and the Wand of Recall. This is a Quest Treasure, the player who finds it takes the appropriate card, which he may keep.</note>
+<note>BALUR</note>
+<note>Balur has the following values:</note>
+<note>Move 8 squares</note>
+<note>Attack 2 dice</note>
+<note>Defend 5 dice</note>
+<note>Mind 7</note>
+<note>Body 1</note>
+<note>Balur has the three Fire spells, which he may use during the game. The players may not choose Fire spells for this game. They must choose their spells from the remaining sets.</note>
+<note>Balur also has the special ability of being able to run through any wall once during the game. When he does this, he is placed on the X in the middle room. If the furniture in this room has not been put out yet, wait until the room is seen before placing Balur on the marked square.</note>
+<note>Wandering monster: Fimir</note>
+</quest>

@@ -1,0 +1,85 @@
+{
+  "artifacts": [
+    {
+      "id": "borins_armour",
+      "name": "Armadura de Borin",
+      "slot": "body",
+      "defend_bonus": 2,
+      "no_move_penalty": true,
+      "wizard_ok": false,
+      "text": "+2 dados de defesa, sem o peso da armadura de placas (anda os 2 dados). O Mago não pode usar."
+    },
+    {
+      "id": "spirit_blade",
+      "name": "Lâmina Espiritual",
+      "slot": "weapon",
+      "attack": 3,
+      "attack_vs": {
+        "undead": 4
+      },
+      "wizard_ok": false,
+      "text": "Ataque 3; 4 dados contra mortos-vivos. Só ela fere o Rei Bruxo. O Mago não pode usar."
+    },
+    {
+      "id": "orcs_bane",
+      "name": "Ruína dos Orcs",
+      "slot": "weapon",
+      "attack": 2,
+      "attacks_vs": {
+        "orc": 2
+      },
+      "wizard_ok": false,
+      "text": "Ataque 2; ataca 2 vezes por turno contra orcs. O Mago não pode usar."
+    },
+    {
+      "id": "talisman_of_lore",
+      "name": "Talismã do Saber",
+      "mind_bonus": 1,
+      "text": "+1 de Mente para quem o carrega."
+    },
+    {
+      "id": "wand_of_magic",
+      "name": "Varinha Mágica",
+      "spells_per_turn": 2,
+      "casters_only": true,
+      "text": "Quem lança feitiços pode lançar 2 por turno."
+    },
+    {
+      "id": "wizards_cloak",
+      "name": "Manto do Mago",
+      "slot": "cloak",
+      "defend_bonus": 1,
+      "wizard_only": true,
+      "text": "+1 dado de defesa. Só o Mago."
+    },
+    {
+      "id": "wizards_staff",
+      "name": "Cajado do Mago",
+      "slot": "weapon",
+      "attack": 2,
+      "diagonal": true,
+      "wizard_only": true,
+      "text": "Ataque 2; ataca na diagonal. Só o Mago."
+    },
+    {
+      "id": "ring_of_return",
+      "name": "Anel do Retorno",
+      "single_use": true,
+      "effect": "return_visible_heroes_to_start",
+      "text": "Uma vez: leva de volta à escada todos os heróis à vista."
+    },
+    {
+      "id": "elixir_of_life",
+      "name": "Elixir da Vida",
+      "single_use": true,
+      "effect": "revive_full",
+      "text": "Uma vez: traz de volta à vida um herói que acabou de cair, com Corpo cheio."
+    },
+    {
+      "id": "spell_ring",
+      "name": "Anel de Feitiço",
+      "effect": "recast_chosen_spell_once",
+      "text": "Uma vez por quest: lança de novo um feitiço já usado."
+    }
+  ]
+}
