@@ -133,3 +133,9 @@ Os campos `_uncertain` dos JSON ainda precisam ser conferidos com o livro físic
 - Retratos e parte da arte foram gerados por IA (Higgsfield e OpenAI). As ilustrações foram
   desenhadas de novo, sem usar a arte original como entrada.
 - Motor: [Godot Engine](https://godotengine.org).
+
+## Licença
+
+O código e os recursos próprios do projeto estão sob a [licença MIT](LICENSE). Ficam de fora o que
+é de terceiros, que segue a licença dos seus autores: as fontes (SIL OFL), os mapas do HeroScribe em
+`referencias/heroscribe/` e o nome, as regras e os textos do HeroQuest, que pertencem aos donos da marca.
